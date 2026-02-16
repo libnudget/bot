@@ -1,0 +1,31 @@
+
+		<div class="gravatar-hovercard" style="width: 320px; min-width: 320px; max-width: 320px; background-color: #fff; border: 1px solid #d8dbdd; border-radius: 4px; overflow: hidden; box-sizing: border-box;">
+			<div style="padding: 16px;">
+				<img
+					src="https://0.gravatar.com/avatar/20942b7f31cddbac0da92a8e9aaf6fa9aeaaf7462f4ccbb27f9b5e7593c04789?s=256&d=initials"
+					width="64"
+					height="64"
+					alt="libnudget"
+					style="margin-bottom: 8px; border-radius: 50%"
+				>
+				<div style="color: #000; font-size: 20px; font-weight: 700; line-height: 120%; margin: 0; 
+		font-family: SF Pro Text, -apple-system, BlinkMacSystemFont, Segoe UI,
+		Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+	">
+					libnudget
+				</div>
+				
+				
+				<a
+					href="https://gravatar.com/libnudgetusersnoreplygithub?utm_source=email_signature"
+					target="_blank"
+					style="display: block; color: #707070; margin-top: 8px; font-size: 14px; 
+		font-family: SF Pro Text, -apple-system, BlinkMacSystemFont, Segoe UI,
+		Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+	"
+				>
+					gravatar.com/libnudgetusersnoreplygithub
+				</a>
+			</div>
+			
+		</div>
