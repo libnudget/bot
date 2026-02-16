@@ -1,0 +1,21 @@
+name: bot self test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure bot identity
+        run: |
+          git config user.name "libnudget[bot]"
+          git config user.email "libnudget@users.noreply.github.com"
+
+      - name: Create test commit
+        run: |
+          echo "bot test $(date)" >> BOT_TEST.log
+          git add BOT_TEST.log
+          git commit -m "chore(bot): self-test commit"

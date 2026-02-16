@@ -1,0 +1,16 @@
+name: libnudget bot commit
+description: Commit changes using the libnudget bot identity
+author: libnudget
+
+inputs:
+  message:
+    description: Commit message
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - run: |
+        chmod +x ${{ github.action_path }}/entrypoint.sh
+        ${{ github.action_path }}/entrypoint.sh "${{ inputs.message }}"
+      shell: bash
