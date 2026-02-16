@@ -13,11 +13,15 @@ jobs:
 
       - name: Configure bot identity
         run: |
+          if [ -z "$BOT_EMAIL" ]; then
+            echo "Error: BOT_EMAIL is not set. Configure it in repo settings."
+            exit 1
+          fi
           git config user.name "libnudget[bot]"
           git config user.email "$BOT_EMAIL"
 
       - name: Create test commit
         run: |
           echo "bot test $(date)" >> BOT_TEST.log
-          git add BOT_TEST.log
+          git add -f BOT_TEST.log
           git commit -m "chore(bot): self-test commit"
