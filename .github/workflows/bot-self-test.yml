@@ -25,3 +25,6 @@ jobs:
           echo "bot test $(date)" >> BOT_TEST.log
           git add -f BOT_TEST.log
           git commit -m "chore(bot): self-test commit"
+
+      - name: Push commit
+        run: git push
