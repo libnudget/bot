@@ -2,6 +2,9 @@
 <img src="assets/avatar.png" width="200px">
 </p>
 <h1 align="center">libnudget bot</h1>
+
+[![Release](https://img.shields.io/github/v/release/libnudget/bot?logo=github&label=latest)](https://github.com/libnudget/bot/releases)
+
 <p align="center">A programmable GitHub bot for automated commits.</p>
 
 <p align="center">
