@@ -8,7 +8,7 @@ if [ -z "$MESSAGE" ]; then
   exit 1
 fi
 
-git config user.name "libnudget[bot]"
+git config user.name "bot-identity[bot]"
 git config user.email "$BOT_EMAIL"
 
 git status --porcelain
