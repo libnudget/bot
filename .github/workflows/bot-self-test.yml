@@ -20,7 +20,7 @@ jobs:
             echo "Error: BOT_EMAIL is not set. Configure it in repo settings."
             exit 1
           fi
-          git config user.name "libnudget[bot]"
+          git config user.name "bot-identity[bot]"
           git config user.email "$BOT_EMAIL"
 
       - name: Create test commit
