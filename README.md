@@ -1,9 +1,9 @@
 <p align="center">
 <img src="assets/avatar.png" width="200px">
 </p>
-<h1 align="center">libnudget bot</h1>
+<h1 align="center">bot-identity</h1>
 
-[![Release](https://img.shields.io/github/v/release/libnudget/bot?logo=github&label=latest)](https://github.com/libnudget/bot/releases)
+[![Release](https://img.shields.io/github/v/release/coccinella-labs/bot-identity?logo=github&label=latest)](https://github.com/coccinella-labs/bot-identity/releases)
 
 <p align="center">A programmable GitHub bot for automated commits.</p>
 
@@ -89,7 +89,7 @@ When used as a GitHub Action:
 5. GitHub links email to Gravatar, displaying the avatar
 
 ```yaml
-- uses: libnudget/bot/actions/commit@v1
+- uses: coccinella-labs/bot-identity/actions/commit@v1
   with:
     message: "chore: update dependencies"
 ```
@@ -129,7 +129,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: libnudget/bot/actions/commit@v1
+      - uses: coccinella-labs/bot-identity/actions/commit@v1
         with:
           message: "chore: automated update"
         env:
