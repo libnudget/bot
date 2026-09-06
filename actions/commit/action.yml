@@ -1,6 +1,6 @@
-name: libnudget bot commit
-description: Commit changes using the libnudget bot identity
-author: libnudget
+name: bot-identity commit
+description: Commit changes using the bot-identity bot identity
+author: coccinella-labs
 
 inputs:
   message:
