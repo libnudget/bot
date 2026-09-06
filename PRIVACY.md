@@ -1,6 +1,6 @@
 # Privacy Policy
 
-This bot only performs automated commits on behalf of the libnudget organization.
+This bot only performs automated commits on behalf of Coccinella Labs.
 
 ## What the bot does
 
