@@ -1,11 +1,11 @@
-# libnudget bot commit action
+# bot-identity commit action
 
-Reusable GitHub Action to commit changes as **libnudget[bot]**.
+Reusable GitHub Action to commit changes as **bot-identity[bot]**.
 
 ## Usage
 
 ```yaml
-- uses: libnudget/bot/actions/commit@v1
+- uses: coccinella-labs/bot-identity/actions/commit@v1
   with:
     message: "chore(deps): update lockfile"
 ```
