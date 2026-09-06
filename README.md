@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://raw.githubusercontent.com/Coccinella-Labs/bot-identity/main/.github/assets/thumbnail.png" alt="bot-identity" width="100%">
+</p>
+
+<p align="center">
 <img src="assets/avatar.png" width="200px">
 </p>
 <h1 align="center">bot-identity</h1>
