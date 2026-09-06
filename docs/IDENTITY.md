@@ -1,6 +1,6 @@
-# libnudget[bot] identity
+# bot-identity[bot] identity
 
-This bot represents automated actions for the libnudget organization.
+This bot represents automated actions for Coccinella Labs.
 
 ## Rules
 - No human-authored commits
@@ -9,6 +9,6 @@ This bot represents automated actions for the libnudget organization.
 - Never modify protected branches directly
 
 ## Identity
-- Name: libnudget[bot]
-- Email: libnudget@users.noreply.github.com
+- Name: bot-identity[bot]
+- Email: bot-identity@users.noreply.github.com
 - Avatar: assets/avatar.png
